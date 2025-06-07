@@ -42,7 +42,7 @@ plt.scatter(X,y)
 plt.plot(X, reg.predict(X),color="red")
 plt.xlabel("X points from test dataset")
 plt.ylabel("Y points from test dataset and model predictions")
-plt.title()
+plt.title("Dataset visualization + Model prediction line")
 
 plt.show()
 """For the current dataset used, the model converges at around the 300th iteration, feel free to change the datasets or use 
